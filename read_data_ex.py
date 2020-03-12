@@ -1,5 +1,9 @@
 import numpy as np
 import csv
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import SVC
 
 filename_r = 'data//winequality-red.csv'
 filename_w = 'data//winequality-white.csv'
